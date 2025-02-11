@@ -39,7 +39,7 @@ var (
 	EmojiId         = NewCustomEmoji("id", 1339002097139453963, false)
 	EmojiOpen       = NewCustomEmoji("open", 1339002143729778730, false)
 	EmojiOpenTime   = NewCustomEmoji("opentime", 1339008285390405713, false)
-	EmojiClose      = NewCustomEmoji("close", 1339008285390405713, false)
+	EmojiClose      = NewCustomEmoji("close", 1339002174650187876, false)
 	EmojiCloseTime  = NewCustomEmoji("closetime", 1339008285390405713, false)
 	EmojiReason     = NewCustomEmoji("reason", 1339006380241321984, false)
 	EmojiSubject    = NewCustomEmoji("subject", 1013527369832738907, false)
