@@ -76,7 +76,7 @@ func (PremiumCommand) Execute(ctx registry.CommandContext) {
 					Label: ctx.GetMessage(i18n.MessagePremiumOpenServerSelector),
 					Style: component.ButtonStyleLink,
 					Emoji: utils.BuildEmoji("🔗"),
-					Url:   utils.Ptr("https://tickets.tlgy.lol/premium/select-servers"),
+					Url:   utils.Ptr("https://tickets-dashboard.astro-mc.xyz/premium/select-servers"),
 				}),
 			}, buttons...)
 		}
@@ -135,7 +135,7 @@ func (PremiumCommand) Execute(ctx registry.CommandContext) {
 						Label: ctx.GetMessage(i18n.Website),
 						Style: component.ButtonStyleLink,
 						Emoji: utils.BuildEmoji("🔗"),
-						Url:   utils.Ptr("https://tickets.tlgy.lol/premium"),
+						Url:   utils.Ptr("https://tickets-dashboard.astro-mc.xyz/premium"),
 					}),
 				),
 			),
