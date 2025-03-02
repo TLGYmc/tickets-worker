@@ -30,7 +30,7 @@ func BuildEmbed(
 	}
 
 	if ctx.PremiumTier() == premium.None {
-		msgEmbed.SetFooter("Powered by Guest @ tickets-dashboard.astro-mc.xyz", "https://ticketsbot.net/assets/img/logo.png")
+		msgEmbed.SetFooter("Powered by Guest & Jay @ tickets-dashboard.astro-mc.xyz", "https://media.nathann.lol/u/6EPNHY.jpg")
 	}
 
 	return msgEmbed
@@ -49,7 +49,7 @@ func BuildEmbedRaw(
 	}
 
 	if tier == premium.None {
-		msgEmbed.SetFooter("Powered by Guest @ tickets-dashboard.astro-mc.xyz", "https://ticketsbot.net/assets/img/logo.png")
+		msgEmbed.SetFooter("Powered by Guest & Jay @ tickets-dashboard.astro-mc.xyz", "https://media.nathann.lol/u/6EPNHY.jpg")
 	}
 
 	return msgEmbed

@@ -124,7 +124,7 @@ func (c HelpCommand) Execute(ctx registry.CommandContext) {
 	}
 
 	if ctx.PremiumTier() == premium.None {
-		embed.SetFooter("Powered by Guest @ tickets-dashboard.astro-mc.xyz", "https://ticketsbot.net/assets/img/logo.png")
+		embed.SetFooter("Powered by Guest & Jay @ tickets-dashboard.astro-mc.xyz", "https://media.nathann.lol/u/6EPNHY.jpg")
 	}
 
 	// Explicitly ignore error to fix 403 (Cannot send messages to this user)
