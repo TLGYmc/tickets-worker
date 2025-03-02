@@ -61,7 +61,7 @@ func SendWelcomeMessage(
 		}
 
 		if cmd.PremiumTier() == premium.None {
-			formAnswersEmbed.SetFooter("Powered by Guest & Jay @ tickets-dashboard.astro-mc.xyz", "https://media.nathann.lol/u/6EPNHY.jpg")
+			formAnswersEmbed.SetFooter("Powered by Guest & Jay @ tickets-dashboard.tlgy.lol", "https://media.nathann.lol/u/6EPNHY.jpg")
 		}
 
 		embeds = append(embeds, formAnswersEmbed)
@@ -577,7 +577,7 @@ func BuildCustomEmbed(
 	}
 
 	if branding {
-		e.SetFooter("Powered by Guest & Jay @ tickets-dashboard.astro-mc.xyz", "https://media.nathann.lol/u/6EPNHY.jpg")
+		e.SetFooter("Powered by Guest & Jay @ tickets-dashboard.tlgy.lol", "https://media.nathann.lol/u/6EPNHY.jpg")
 	} else if customEmbed.FooterText != nil {
 		e.SetFooter(*customEmbed.FooterText, utils.ValueOrZero(customEmbed.FooterIconUrl))
 	}
